@@ -1,0 +1,2 @@
+class Oponent < ApplicationRecord
+end

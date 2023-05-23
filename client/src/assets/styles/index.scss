@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.672), #011b693b), url('../img/bg.jpg');
+  // background: linear-gradient(#011b69, black);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* transition: color 0.5s, background-color 0.5s; */
+  /* line-height: 1.6; */
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 120vh;
+}
+
+.el-button {
+  background-color:var(--color-background-game-light);
+  border-color:var(--color-background-game-light);
+  color: #fff;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.auth-form {
+  max-width: 300px;
+  width: 100%;
+  background: var(--color-background-game);
+  height: 50%;
+  padding: 2rem;
+  border-radius: 10px;
+  .el-form-item__label {
+    color: #fff;
+  }
+}
+
+.app-title {
+  font-family: 'Rubik Vinyl', cursive;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+
+.font-surcharge {
+  font-family: 'Roboto';
+	// font-size: 1rem;
+	text-align:center;
+	color:white;
+}
+
+.fs-smaller {
+  font-size: 1rem;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.w-100 {
+  width: 100%
+}
+
+.card-row {
+  .el-col {
+    background: linear-gradient(#434d9e 0.01%, var(--color-background-game-blue) 99.99%);
+    box-shadow: var(--color-background-game) 0px 3px 10px;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Rubik Vinyl', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    h3 {
+      padding: 0.3rem;
+    }
+    &:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 10;
+    font-size: 1.6rem;
+    text-align:center;
+    }
+  }
+}
+
+.card {
+  .el-col {
+    background: linear-gradient(#434d9e 0.01%, var(--color-background-game-blue) 99.99%);
+    box-shadow: var(--color-background-game) 0px 3px 10px;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Rubik Vinyl', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    span {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.5rem;
+      align-items: center;
+      align-content: center;
+      p{
+        margin: 10px 10px;
+      }
+    }
+  }
+}
+
+
+
+  

@@ -1,0 +1,2 @@
+class Enigme < ApplicationRecord
+end
