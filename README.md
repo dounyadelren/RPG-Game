@@ -1,7 +1,11 @@
 # RPG-Game
 
 <div style="center">
-     <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" />      
+     <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="Vue" /> 
+     <img src="https://img.shields.io/badge/ruby-a6051a?style=for-the-badge&logo=ruby&logoColor=white%22" alt="Ruby"/>
+     <img src="https://img.shields.io/badge/sqlite-56abdd?style=for-the-badge&logo=sqlite&logoColor=white%22" alt="SQLite" />
+     <img src="https://img.shields.io/badge/pinia-fdc735?style=for-the-badge&logo=pinia&logoColor=white%22" alt="SQLite" />
+     <img src="https://img.shields.io/badge/elementplus-1e2835?style=for-the-badge&logo=element&logoColor=white%22" alt="elementplus"/>
 </div>
 
 Projet de jeu RPG fait en Ruby On Rails / Vue 3 en collaboration avec mon binôme ultime, j'ai nommé <a href="https://github.com/CorentinNrd/CorentinNrd">Corentin</a>.
