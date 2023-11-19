@@ -1,6 +1,8 @@
 # RPG-Game
 
-<div style="center"></div>
+<div style="center">
+     <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" />      
+</div>
 
 Projet de jeu RPG fait en Ruby On Rails / Vue 3 en collaboration avec mon binôme ultime, j'ai nommé <a href="https://github.com/CorentinNrd/CorentinNrd">Corentin</a>.
 
